@@ -1,0 +1,1 @@
+import{r as s,a as r,j as e}from"./index-C7rN-YIG.js";const m=a=>{const[o,i]=s.useState();return s.useLayoutEffect(()=>{r.get(`https://www.omdbapi.com/?apikey=c9b0373e&i=${a.imdb}`).then(t=>{i(t.data.Poster)}).catch(t=>{console.log(t)})},[]),e.jsx(e.Fragment,{children:e.jsx("div",{children:e.jsx("img",{className:"img2",src:o,alt:"Image"})})})};export{m as default};
